@@ -1,0 +1,119 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: #ffc107;
+    height: 100vh;
+}
+.main{
+    height: 100vh;
+    background-size: cover !important;
+    background-position: center !important;
+    background-attachment: fixed !important;
+    padding-left: 0%;
+    padding-right: 0%;
+}
+.nav-bar{
+    background-color: #00203FFF !important;
+    color: #ffc107 !important;
+}
+.nav-head{
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    word-spacing: 2px;
+    letter-spacing: 2px;
+}
+.main-input{
+    width: 400px !important;
+    padding-top: 20px;
+}
+.form-control{
+    width: 200px !important;
+    box-shadow: none !important;
+    outline: none !important;
+    padding-left: 20px;
+    margin: 0px 30px 0px 70px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #00203FFF !important;
+    border: none;
+    border-bottom: 3px solid #00203FFF;
+}
+.form-control:focus{
+    border: none;
+    border-radius: 0%;
+    border-bottom: 3px solid #00203FFF;
+    color: #00203FFF !important;
+    font-size: 22px;
+    font-weight: 500;
+}
+.form-control::placeholder{
+    font-size: 22px;
+    font-weight: 500;
+    word-spacing: 1px;
+    letter-spacing: 1px;
+}
+.list-div{
+    margin-top: 20px !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.button-div{
+    margin-left: 30%;
+    margin-top: 20px;
+    text-decoration: none;
+}
+.button-div button{
+    background-color: #00203FFF;
+    outline: none;
+    border-color: #00203FFF;
+    font-weight: 500;
+}
+.button-div button:active{
+    transform:translateX(-1px);
+}
+.button-div button:focus{
+    box-shadow: none;
+}
+.yellow-div{
+    height: 585px !important;
+}
+.sub-div{
+    background-color: #00203FFF;
+    width: 70%;
+    border-radius: 15px;
+    height: auto;
+}
+.list{
+    list-style: none;
+    text-align: justify;
+}
+.list li{
+    text-align: auto;
+    border-bottom: 2px solid #ffc107;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: block;
+    font-size: 30px;
+    color: #ffc107;
+    font-family: 'Times New Roman', Times, serif;
+}
+.btn{
+    background-color: #ffc107;
+    outline: none;
+    border-color: #00203FFF;
+    font-weight: 500;
+    color: #00203FFF;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    margin-left: 5px;
+}
+.btn:focus{
+    outline: none;
+    border: none;
+}
